@@ -1,0 +1,105 @@
+body {
+    background: navy;
+    color: aliceblue;
+    text-align: center;
+}
+
+.flat_register {
+    background: rgb(6, 129, 245);
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 5%;
+}
+.flat_register:hover {
+    background: rgb(32, 32, 219);;
+}
+
+.round_register {
+    background: lawngreen;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 5%;
+    border-radius: 30px;
+}
+.round_register:hover {
+    background: green;
+}
+
+.flat_ghost_register {
+    background: navy;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 5%;
+    border: 2px solid coral;
+}
+.flat_ghost_register:hover {
+    background: coral;
+}
+
+.round_ghost_register {
+    background: navy;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 5%;
+    border: 2px solid orange;
+    border-radius: 30px;
+}
+.round_ghost_register:hover {
+    background: orange;
+}
+
+.round_ghost_submit {
+    background: navy;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 5%;
+    border: 2px solid rgb(53, 198, 255);
+    border-radius: 30px;
+}
+.round_ghost_submit:hover {
+    background: rgb(53, 198, 255);
+}
+
+.flat_ghost_submit {
+    background: navy;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 5%;
+    border: 2px solid rgb(215, 53, 255);
+}
+.flat_ghost_submit:hover {
+    background: rgb(215, 53, 255);
+}
+
+.round_submit {
+    background: rgb(255, 53, 154);;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 5%;
+    border: 2px solid rgb(255, 53, 154);
+    border-radius: 30px;
+}
+.round_submit:hover {
+    background:rgb(252, 26, 139);
+}
+
+.flat_submit {
+    background: gold;
+    color:aliceblue;
+    padding: 10px;
+    margin-left: 5px;
+    border: 2px solid gold; 
+}
+.flat_submit:hover {
+    background: goldenrod;
+    border: 2px solid goldenrod;
+}
+
+
+
+
+

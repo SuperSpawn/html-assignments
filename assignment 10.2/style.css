@@ -1,0 +1,144 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111;
+}
+
+
+
+
+/* util classes */
+.left-side {
+    float: left;
+}
+.right-side {
+    float: right;
+}
+.centered-text {
+    text-align: center;
+}
+.full-width { 
+    width: 100%;
+}
+.no-dots {
+    list-style: none;
+}
+.no-link-dec {
+    text-decoration: none;
+}
+.text-light {
+    color: white;
+
+}
+.text-dark {
+    color: #333;
+}
+.border-20p-2px-light {
+    border: 2px solid white;
+    padding: 20px;
+}
+.border-20p-2px-dark {
+    border: 2px solid #333;
+    padding: 20px;
+}
+.clr {
+    clear: both;
+}
+.tb-padding {
+    padding-top: 20px;
+}
+.bg-light {
+    background-color: white;
+}
+.bg-dark {
+    background-color: #333;
+}
+.marg-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.rounded-border {
+    border-radius: 1rem;
+}
+.full-height {
+    height: 100vh;
+}
+.vmarg-auto {
+    margin-top: auto;
+}
+
+
+
+
+
+
+/*specific classes*/
+.card-box {
+    display:block;
+    width: 33.3%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height:fit-content;
+}
+
+.container {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.social-links-list {
+    margin-top: 15px;
+}
+
+.main-navbar {
+    width: 33.3%;
+    display: block;
+}
+
+.main-navbar:hover,
+.main-navbar a:hover {
+    color: #333;
+    background-color: white;
+
+}
+
+.main-image {
+    width: 33.3%;
+    border-radius: 20%;
+}
+.content-page {
+    padding: 0 20px;
+}
+
+
+@media(max-width:1000px) {
+    .too-long {
+        display: none;
+    }
+    .card-box,
+    .img-div {
+        width: 100%;
+    }
+    .main-image {
+        width: 60%;
+
+    }
+}
+
+.landing-page {
+    width: 50vw;
+    height: 50vh;
+    padding: 10rem 0; 
+}  
+.landing-page a {
+    display: block;
+    width: 20vw;    
+}
+
+
+

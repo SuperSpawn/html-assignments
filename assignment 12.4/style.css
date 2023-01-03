@@ -1,0 +1,60 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.box {
+    margin: auto;
+    display: block;
+    color: white;
+    width: 5rem;
+    margin-top: 40vh;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 2rem 3rem;
+}
+
+
+.cool-border {
+    position: relative;
+    border: 2px solid red;
+}
+.cool-border::before {
+    content: 'Cool Border';
+    position: absolute;
+    top: auto;
+    left: -3px;
+    display: block;
+    width: calc(100% + 5px);
+    height: calc(100% - 4rem);
+    background-color: black;
+    z-index: 0;
+}
+.cool-border::after {
+    content: 'Cool Border';
+    position: absolute;
+    left: auto;
+    top: -2px;
+    display: block;
+    width: calc(100% - 6rem);
+    background-color: black;
+    border: 2px black solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+

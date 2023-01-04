@@ -1,0 +1,38 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.item {
+    padding: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1rem;
+}
+.red {
+    background-color: red;
+    grid-column:  1 / span 4;
+}
+.blue {
+    background-color: blue;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 3;
+}
+.green {
+    background-color: green;
+    grid-column: 3 / span 4;
+}
+.purple {
+    background-color: purple;
+}
+

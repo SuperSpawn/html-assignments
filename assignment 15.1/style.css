@@ -1,0 +1,46 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.item {
+    padding: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1rem;
+}
+.top-left {
+    background-color: red;
+    grid-column: 1 / span 2;
+
+}
+.top-right {
+    background-color: blue;
+    grid-column: 3 / span 4;
+}
+.middle-left { 
+    background-color: green;
+}
+.middle-right {
+    background-color: purple;
+    grid-column: 2 / span 4;
+
+}
+.bottom {
+    background-color: yellow;
+    grid-column: 1 / span 4;
+}
+
+
+
+

@@ -7,10 +7,10 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: .5rem;
     max-width: 1000px;
-    margin: 0 auto;
 }
 .item {
     padding: 3rem;
@@ -21,16 +21,23 @@
 }
 .red {
     background-color: red;
-    grid-column:  1 / span 4;
+    grid-column-start:  1;
+    grid-column-end: 4;
 }
 .blue {
     background-color: blue;
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
 }
 .green {
     background-color: green;
-    grid-column: 3 / span 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
 }
 .purple {
     background-color: purple;
